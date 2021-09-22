@@ -7,7 +7,7 @@ def get_max_circles_in_rectangle2(short_length, long_length):
     # print(max_triangle_row)
     all_list = list()
     for triangle_pattern_row in range(max_triangle_row + 1):
-
+        # triangle_pattern_part
         total_circles = long_length + 1
         for i in range(triangle_pattern_row):
             if i % 2 == 0:
